@@ -3,128 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-     <!-- CSS way 1:style tage -->
-    <!-- <style>
-        body{ 
-            color:red;
-        }
-    </style> -->
-    <!-- Third way of doing CSS-->
+    <title>Home | Kaushik Mazumdar</title>
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Welcome to Kaushik's Component Library </h1>
-       <!-- style="color:red" --> 
-    <p> Hi! I am Learning web development at Neogcamp, mentored by Tanay Pratap</p>
-    <hr>
-    
-    <h2>@typography</h2>
-    
-    <h1> This is biggest heading</h1>
-    <small>This is relatively small</small>
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class='container'>It goes from one end till end of the page</div>
-
-    <h3>Centre Container</h3>
-    <div class="container container-centre">This is centred container and it will go till the specified width</div>
-    <hr>
-
-    <h2>Links</h2>
-    <a class="link link-primary" href="/"> Primary Link</a>
-    <a class="link link-secondary" href="/"> Secondary Link</a>
-
-    <hr>
-    <h2>Lists</h2>
-    <h3> Unordered Lists</h3>
-    <p> This list will not have the  bullet</p>
-    <ul class="list-non-bullet">
-        <li> Item One</li>
-        <li> Item two</li>
-        <li> Item three</li>
-    </ul>
-    
-    <h3 class="list-non-bullet"> Unordered Inline Lists</h3>
-    <ul>
-        <li class="list-item-inline"> Inline Item one</li>
-        <li class="list-item-inline"> Inlien Item two</li>
-        <li class="list-item-inline"> Inline Item three</li>
-    </ul>
-
-    <h3> reversed Ordered Lists</h3>
-    <ol reversed>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item Three</li>
-    </ol>
-    <hr>
-
-    <h2>@nav</h2>
-
     <nav class="navigation container">
-        <div class="nav-brand">IamBrand</div>
+        <div class="nav-brand">I am Developer</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a  class="link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Products</a>
+                <a class="link " href="/lib/Projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">About</a>
+                <a class="link" href="/blog.html">Blogs</a>
             </li>
         </ul> 
     </nav>
-    
-    <hr>
-    <h2>@header</h2>
     <header class="hero">
-        <img class="hero-image" src="images/web dev image.svg"/>
-        <h1 class="hero-heading">Adarsh Balika the <span class="heading-inverted">web developer</span></h1>
+        <img class="hero-image" src="/images/web dev image.svg"/>
+        <h1 class="hero-heading">Kaushik Mazumdar <span class="heading-inverted"> The web developer</span></h1>
     </header>
-    <hr>
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-centre">
-            <h1>white section</h1>
-            <p> MDN is an open source resource where anyone can add and edit contents. 
-                You don't need to be a programmer or know a lot about technologies. There are plenty of things that need to be done, from the simple to the complex (writing API documentation).
-                Contributing is easy and safe. Even if you make a mistake, it's easily fixed.
-            </p>    
-        <div>
-    </section>
-    <section class="section OW" >
-        <div class="container container-centre">
-            <h1>Off white section</h1>
-            <p>Now that you are logged in, read the descriptions of the different task types available on the main Contribute page, and decide which one most 
-                appeals to you. You can pick any task you like and begin your contribution.
-            </p>
-        </div>
-    </section>
-    <hr>
-    <h2>@footer</h2>
-    <footer class="footer container">
-        <div class="footer-header">Some small heading inside footer</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline" >
-                <a class="link" href="/">Social one</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">Social two</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">Social three</a>
-            </li>
-        </ul>
-    </footer>
-    <hr>
-    
-
-
-
+</section>
+<section class="section OW" >
+    <div class="container container-centre">
+        <h1>Technologies</h1>
+        <p>Now that you are logged in, read the descriptions of the different task types available on the main Contribute page, and decide which one most 
+            appeals to you. You can pick any task you like and begin your contribution.
+        </p>
+    </div>
+</section>
+<section class="section">
+    <div class="container container-centre">
+        <h1>Projects</h1>
+        <p> MDN is an open source resource where anyone can add and edit contents. 
+            You don't need to be a programmer or know a lot about technologies. There are plenty of things that need to be done, from the simple to the complex (writing API documentation).
+            Contributing is easy and safe. Even if you make a mistake, it's easily fixed.
+        </p>
+        <a class="link link-primary" href="/lib/Projects.html">Visit Projects</a>    
+    <div>
+</section>
+<section class="section OW" >
+    <div class="container container-centre">
+        <h1>Blogs</h1>
+        <p>Now that you are logged in, read the descriptions of the different task types available on the main Contribute page, and decide which one most 
+            appeals to you. You can pick any task you like and begin your contribution.
+        </p>
+        <a class="link link-primary" href="/blog.html">Read Blogs</a>
+    </div>
+</section>
+<footer class="footer container">
+    <div class="footer-header">Social Media Presence</div>
+    <ul class="social-links list-non-bullet">
+        <li class="list-item-inline" >
+            <a class="link" href="/">Github</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="/">Twitter</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="/">Linkedin</a>
+        </li>
+    </ul>
+</footer>
 </body>
 </html>
