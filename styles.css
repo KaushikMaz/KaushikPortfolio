@@ -1,15 +1,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 :root{
-    --primary-color:#F87171;
+    --primary-color:#312929;
     --dark-gray:#374151;
     --off-white:#E5E7EB;
 }
 body{
     font-family:"Martel",sans-serif;
     margin: 0px;
+    background-image: url("/images/unsplash.jpg"); /* The image used */
+    /* background-color: #cccccc; Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
+/* .hero-image {
+    background-image: url("/images/unsplash.jpg"); /* The image used */
+    /* background-color: #cccccc; Used if the image is unavailable */
+    /* height: 500px; /* You must set a specified height */
+    /* background-position: center; /* Center the image */
+    /* background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-size: cover; /* Resize the background image to cover the entire container */
+  } */ */ */ */ */
 
 hr{
     margin:2rem 0rem;
@@ -56,6 +70,7 @@ hr{
 }
 .navigation .nav-brand{
     font-weight: bold;
+    font-family: 'Dancing Script', cursive;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -75,12 +90,12 @@ hr{
     margin: auto;
 }
 .hero .hero-heading{
-    color: var(--primary-color) ;
+    color: var(--off-white) ;
     padding-top: 1rem;
     text-align: center;
 }
 .hero .hero-heading .heading-inverted{
-    color:var(--dark-gray);
+    color:var(---off-white);
 }
 .section{
     padding: 2rem;
