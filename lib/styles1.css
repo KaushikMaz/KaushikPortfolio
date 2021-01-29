@@ -28,7 +28,7 @@ hr{
     padding:0rem 1rem;
 } 
 .container-centre{ 
-    max-width: 100%;
+    /* max-width: 900px; */
     margin:auto;
     color: var(--primary-color)
     
@@ -116,11 +116,11 @@ hr{
 
 .wrapper {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
     background-color: #E5E7EB;
  }
   
@@ -130,16 +130,16 @@ hr{
     height: 0 auto;
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 15px;
-    padding: 15px;
+    grid-gap: 10px;
+    padding: 10px;
     box-sizing: border-box;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
     /* padding:0rem 1rem; */
   }
   
 .box {
     background-color: #48456b;
-    padding: 30px;
+    padding: 10px;
     color:var(--off-white);
     text-align: justify;
     border-radius: 5px;
