@@ -164,6 +164,18 @@ hr{
     width: 500px;
     margin: 0 auto;}
 
+.contain:hover .box {
+        filter: blur(10px);
+        transform: scale(0.9);
+        opacity: 1;
+      }
+      
+.contain .box:hover {
+        filter: blur(0px);
+        transform: scale(1.1);
+        opacity: 1;
+      }
+
 .footer{
     background-color: var(--primary-color);
     padding: 1rem .5rem;
