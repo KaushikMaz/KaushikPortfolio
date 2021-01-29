@@ -162,7 +162,9 @@ hr{
   }
 .action-btns {
     width: 500px;
-    margin: 0 auto;}
+    margin: 0 auto;
+    
+}
 
 .contain:hover .box {
         filter: blur(10px);
