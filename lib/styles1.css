@@ -130,7 +130,7 @@ hr{
     height: 0 auto;
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 15px;
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 0.1rem;
@@ -139,7 +139,7 @@ hr{
   
 .box {
     background-color: #48456b;
-    padding: 10px;
+    padding: 20px;
     color:var(--off-white);
     text-align: justify;
     border-radius: 5px;
