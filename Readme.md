@@ -1,2 +1,2 @@
 # PORTFOLIO
-Hey! Welcome to my Portfolio. Its coming up soon
+Hey! Welcome to my Portfolio. 
