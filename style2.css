@@ -7,6 +7,7 @@
     --off-white: #E5E7EB;
 }
 
+
 body {
     font-family: 'Martel', sans-serif;
     margin: 0px;
@@ -61,11 +62,21 @@ hr {
 .navigation .link {
     color: white;
 }
+.list-non-bullet{
+    list-style:none;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
 
 .navigation .link-active {
     font-weight: bold;
 }
-
+.navigation .nav-brand{
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
 .hero {
     padding: 2rem;
 }
@@ -92,7 +103,7 @@ hr {
     padding: 2rem;
 }
 
-.section h1 {
+.section h1,h3,p {
     text-align: center;
 
 }
